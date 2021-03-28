@@ -1,31 +1,44 @@
-body{
-    margin-left: 43%;
+body {
     background-color: #d8aea6;
 }
 
-.links{
+.wrapper {
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
     margin-top: 35px;
     margin-left: -2%;
 }
 
-.logo_img{
+.logo_img {
     border-radius: 50%;
     height: 130px;
     width: 130px;
 }
 
 .tg_logo{
-    height: 10px;
-    width: 10px;
+    margin-left: -3px;
+    height: 20px;
+    width: 20px;
+    padding-right: 4px;
+
 }
 
-.link{
+.link {
     margin-top: 15px;
 }
 
-button{
+button {
+    border: none;
     width: 170px;
     height: 50px;
     border-radius: 5px;
-    background-color: #e39586;
+    background-color: #485a5a;
+    color: #d8aea6;
+    font-size: 20px;
 }
